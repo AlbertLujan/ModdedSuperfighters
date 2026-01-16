@@ -1,0 +1,10 @@
+# Ignore large/unnecessary files
+ffdec/
+ffdec.zip
+*.dat
+
+# Keep only essential files
+!superfighters_modded.swf
+!Superfighters.exe
+!README.md
+!export_scripts/
