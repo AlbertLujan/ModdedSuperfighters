@@ -1,60 +1,39 @@
-# 🔥 Superfighters Modded
+# Superfighters Modded
 
-A heavily modified version of Superfighters with enhanced weapons, movement, and AI.
+My personal modded version of Superfighters. Made for fun.
 
-## 🎮 How to Play
+## How to play
 
-1. Download `superfighters_modded.swf` and `Superfighters.exe`
-2. Place both files in the same folder
-3. Run `Superfighters.exe` - it will automatically load the modded SWF
+Download `superfighters_modded.swf` and `Superfighters.exe`, put them in the same folder and run the exe.
 
-## ⚡ Mod Features
+## What's changed
 
-### Movement
-- **Sprint Speed**: 1.5x faster
-- **Lunge (Dive)**: Travels further, deals 10 damage, 5x knockback
-- **Infinite Stamina**: Never run out of energy
+**Movement:**
+- Sprint is faster (1.5x)
+- Dive goes further and does more damage
+- Infinite stamina
 
-### Weapons - Ranged (2x damage on all bullets)
-| Weapon | Damage | Special |
-|--------|--------|---------|
-| Pistol | 20 | - |
-| Shotgun | 12/pellet | 8 pellets, wide spread, 64 ammo |
-| Rifle | 16 | - |
-| UZI/MAC | 14 | 3x faster fire rate |
-| Sniper | 100 | **One-shot kill** |
-| Magnum | 50 | Fires all 6 bullets at once! |
-| Flamethrower | - | 5 projectiles, wide spread, 240 ammo |
+**Guns:**
+- All bullets do double damage
+- Sniper kills in one shot
+- Magnum shoots all 6 bullets at once
+- UZI fires way faster
+- Shotgun has more pellets and wider spread
+- Flamethrower has more ammo and shoots more fire
 
-### Weapons - Melee (Brutal - kills in 1-2 hits)
-| Weapon | Damage |
-|--------|--------|
-| Sword | 55-65 |
-| Axe | 50-60 |
-| Machete | 45-55 |
+**Melee:**
+- Sword, axe, machete all kill in 1-2 hits
 
-### Explosives
-- **Molotovs**: 60 fire nodes, grenade-like explosion
-- **Barrels**: Explode like grenades (6 explosions)
+**Other stuff:**
+- Molotovs explode bigger (like grenades)
+- Barrels have bigger explosions
+- You spawn with a random gun and random throwables
+- Hard AI dodges bullets better
 
-### Spawn System
-- Random ranged weapon (8 options)
-- Random throwable (grenades or molotovs)
-- Always fists for melee
+## Source code
 
-### AI
-- HARD difficulty now always dodges bullets
+The `export_scripts` folder has all the decompiled ActionScript. Use FFDec to edit and recompile.
 
-## 📁 Files
+## Credits
 
-- `superfighters_modded.swf` - The modded game
-- `Superfighters.exe` - Flash player/launcher
-- `export_scripts/` - Decompiled ActionScript source code
-
-## 🛠️ Modding
-
-Uses [JPEXS Free Flash Decompiler (FFDec)](https://github.com/jindrapetrik/jpexs-decompiler) to modify the SWF.
-
-## ⚠️ Disclaimer
-
-This is a fan modification. Original game by MythoLogic Interactive.
+Original game by MythoLogic Interactive
